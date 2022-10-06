@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Introducing Test</title>
+	<link rel="stylesheet" href="IntroducingTest/CSS/jobsEstilos.css" />
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+	<!-- hacer el enlace al archivo de scripts -->
+</head>
+
+<body>
+
+	<nav>
+		<div class="logo">
+			<a href="jobs.html"><img src="Img/LiT logo positive.png"></a>
+		</div>
+		<ul class="menu">
+			<li><a href="#">Dashboard</a></li>
+			<li><a href="#">LiT Recruit</a></li>
+			<li><a href="#">Events</a></li>
+			<li><a href="#">Level up </a></li>
+			<li><a href="#">LiT Community </a></li>
+			<li><a href="#">
+					<ion-icon name="archive">
+				</a></li>
+
+		</ul>
+	</nav>
+	
+	<div class="container">
+		<form >
+			<label for="Seniority">Choose Seniority:</label>
+			<select name="Seniority" id="Seniority">
+			  <option value="Senior">Senior</option>
+			  <option value="Mid">Mid</option>
+			  <option value="Junior">Junior</option>
+			  <option value="Management">Management</option>
+			</select>
+
+		</form>
+		<br>
+		<form >
+			<label for="Contingency">Choose Contingency:</label>
+			<select name="Contingency" id="Contingency">
+			  <option value="Yes">Yes</option>
+			  <option value="No">No</option>
+			</select>
+		</form>
+		<label for="Perks">Write here a Perk:</label>
+		<input type="text"  id="Perks">
+		<label for="Location">Write here a Location:</label>
+		<input type="text"  id="Location">
+
+
+	</div>
+	<button type="button" id="subirFiltro">submit</button>
+	<br>
+	<div class="container">
+		<form >
+			<label for="order">Order by:</label>
+			<select name="order" id="order">
+			  <option value="Time">Recent</option>
+			  <option value="Company">Company A-Z</option>
+			</select>
+
+		</form>
+	</div>
+	<button type="button" id="ordenar">order</button>
+	<br>
+	<button type="button" id="reload">reload</button>
+	<br>
+
+	<script src="IntroducingTest/JS/jobs.js"></script>
+	
+	
+
+
+</body>
+
+</html>
