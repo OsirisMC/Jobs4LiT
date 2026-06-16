@@ -137,27 +137,3 @@ function deployJobCards() {
 deployJobCards();
 
 
-/*
-    <div class="container">
-        <img src="Img/joblogo.png">       Trabajos[i].Tipo  Trabajos[i].Location  Trabajos[i].Seniority
-        <div class="grid">
-            <div class="col">
-                <h4>Name</h4>
-                <h4>hola</h4>
-                <h4>trabajo</h4>
-            </div>
-            <div class="col">
-                <h4>Name</h4>
-                <h4>hola</h4>
-                <h4>trabajo</h4>
-            </div>
-
-        </div>
-    </div>
-
-          (function (el) {
-
-            };
-        })(i);
-        
-*/
